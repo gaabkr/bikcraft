@@ -1,0 +1,48 @@
+.depoimento {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.depoimento-frase {
+  display: grid;
+  padding:60px;
+  background: var(--cor-p2);
+  align-content: end;
+}
+.depoimento-frase p {
+  max-width: 32ch;
+  margin-bottom: 32px;
+  font-style: italic;
+  position: relative;
+
+}
+.depoimento img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius:0px;
+  
+}
+.depoimento p::before {
+  content:'"';
+  font-size: 5rem;
+  color: var(--cor-p1);
+  position: absolute;
+  left: -50px;
+  top: -30px
+}
+.depoimento p::after {
+  content:'"';
+  font-size: 5rem;
+  color: var(--cor-p1);
+  position: absolute;
+  
+}
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+  .depoimento-frase p {
+    font-size: 1.2rem;
+  }
+
+}
