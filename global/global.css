@@ -16,7 +16,7 @@ a {
   text-decoration:none;
   color: #111111;
 }
-h1, h2, h4, h3, ul, p {
+h1, h2, h4, h3, ul, p, dd {
   margin: 0px;
 }
 img {

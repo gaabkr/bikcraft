@@ -27,6 +27,8 @@
   transform: translateX(4px);
 }
 .botao {
+  border: none;
+  cursor: pointer;
   display: inline-block;
   font-size: 18px;
   line-height: 1.33;
