@@ -40,7 +40,10 @@
   transition: 0.3s;
   position: absolute;
 }
-.header-menu a:hover:after {
+
+
+.header-menu :hover::after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 
